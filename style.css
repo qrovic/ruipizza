@@ -105,6 +105,9 @@ div.banner-image{
     display: flex;
     justify-content: center;
     align-items: center;
+    color: black;
+}.btn-order a{
+    color: black;
 }
 h5.h5{
     text-align: center;
