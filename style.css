@@ -68,7 +68,7 @@ nav a{
     
 }
 
-a::visited{
+a:visited{
     color:black;
 }
 section#banner{
