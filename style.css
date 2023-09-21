@@ -1,0 +1,598 @@
+body{
+    width:100vw;
+    height: 100vh;
+    background-color: rgb(233, 233, 233); 
+}
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    padding: 0;
+    margin: 0;
+    
+    text-decoration: none;
+}
+header{
+    position: sticky;
+    top:0;
+    background-color: white;
+    z-index: 100;
+}
+p.first-pizza{
+    font-size: 40px;
+    color: white;
+   
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    align-items: center;
+    background-color: #bb0706;
+    height: auto;
+}
+header{
+    width: 100vw;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.7);
+}
+nav a{
+    text-decoration: 0;
+    color:#cd5c5c;
+    padding:8px;
+    font-size: 16px;
+    font-weight:normal;
+}
+
+nav .logo{
+    font-size: 30px;
+    
+}
+nav ul{
+    display: flex;
+    list-style:none;
+    align-items: center;
+    justify-content: center;
+}
+nav a{
+    text-decoration: 0;
+    color: white;
+    padding:10px;
+}
+.logo{
+    color: white;
+    border:none;
+}
+.logo:hover{
+    
+}
+
+
+section#banner{
+    height: auto;
+    width: 100vw;
+}
+h3.spicy-flavor{
+    color: white;
+    font-size: large;
+}
+div.banner-image h2{
+    color: #fff;
+    font-size:2em;
+}
+div.banner-image p span{
+    color: #FA8072;
+    font-weight:600;
+}
+div.banner-image{
+    background-image: url('./resources/banner.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    height: 30vw;
+    width:100vw;
+    
+}
+.order{
+    padding: 200px;
+    width:32vw;
+}
+.order .btn-order{
+    margin-top: 20px;
+    border: 0.5px solid rgb(175, 175, 175);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h5.h5{
+    text-align: center;
+    font-weight:bolder;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+   
+}
+p.price{
+    text-align: center;
+    font-weight:200;
+    margin-bottom: 10px;
+    
+}
+h2.featured-pizza{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 28px;
+    margin-top: 30px;
+    
+}
+
+.featured{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 99vw;
+    margin: 0px;
+    padding: 0px;
+    flex-wrap: nowrap;
+}
+.spicy-out{
+    width: 30vw;
+    height: 30vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 0.5px solid rgb(175, 175, 175);
+    
+    border-radius: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+    transform: scale(1);
+    transition: transform 0.3s;
+    background-color: white;
+    overflow-y: hidden;
+}
+
+div.spicy-img{
+    background-image: url('./resources/spicy.jpeg');
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+
+   
+}
+div.peperoni-img{
+    background-image: url('./resources/pepperoni.jpeg');
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+div.veggie-img{
+    background-image: url('./resources/veggie.jpg');
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width:100% ;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+.spicy-out:hover{
+    transform: scale(1.05);
+    border-color: #bb0706;
+    cursor: pointer;
+}
+.spicy-out:hover h5{
+  
+    color: #bb0706;
+}
+button.button-view{
+    display: flex;
+    align-items: center;
+}
+div.button-view{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+p.footer{
+    text-align: center;
+}
+h2.what{
+    text-align: center;
+    font-size: 25px;
+}
+section#customersay{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.huhuhaha{
+    margin: 10px 10px;
+    border: 0.5px solid rgb(175, 175, 175);
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+    
+p.customer{
+    text-align: center;
+    position: center;
+    padding: 10px;
+    
+}
+footer{
+    background-color: #bb0706;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:20px 0px;
+}
+.footer{
+    flex-direction: column;
+    justify-content: center;
+    
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.footer-links1{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    padding-right: 20px;
+    align-items: center;
+    
+}
+p.footer{
+    text-align: center;
+    color: white;
+}
+.btn-order a{
+    text-align: none;
+    color:green;
+}
+
+.btn-order{
+    width:150px;
+    height:50px;
+    margin-top:0px;
+    border:none;
+}
+.view-more{
+    width:150px;
+    height:50px;
+    margin-top:0px;
+    border:none;
+    background-color: white;
+    border: 0.5px solid rgb(175, 175, 175);
+    border-radius: 10px;
+}
+.view-more:hover{
+    color: #bb0706;
+    border-color: #bb0706;
+    transition: color 0.3s,border 0.3s;
+    cursor: pointer;
+}
+li{
+    transform: scale(1);
+    transition: transform 0.3s;
+}
+li a:hover{
+    font-size: large;
+    color:black;
+    transition: color 0.3s,border 0.3s;
+    cursor: pointer;
+}
+
+.btn-order:hover{
+    border: 0.5px solid #bb0706;
+    color: #bb0706;
+    transition: color 0.3s,border 0.3s;
+    cursor: pointer;
+}
+.lol{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    color: white;
+    
+    
+}
+
+.footer-links1 a{
+    margin-right: 20px;
+}
+.footer-links2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.footer-links2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+}
+.footer-links2 a{
+    font-size: 16px;
+    margin-right: 10px;
+}
+.copyright{
+    color: white;
+    margin-top: 20px;
+}
+footer a:hover{
+    color: black;
+    
+    transition: color 0.3s,border 0.3s;
+    cursor: pointer;
+}
+#hamburger{
+    background-color: transparent;
+    border: 0px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#hamburger i{
+    line-height:normal;
+}
+@media screen and (min-width:320px) and (max-width:767px){
+    nav .logo{
+        font-size: 15px;
+        
+    }
+    nav a{
+        font-size: 12px;
+        padding: 2px;
+    }
+    nav ul{
+        display: none;
+    }
+    div.banner-image{
+        height: 60vh;
+        background-image: url('./resources/bannerportrait.jpg');
+    }
+    div.banner-image{
+        align-items: center;
+        display: flex;
+        justify-content:flex-end;
+    }
+    .btn-order{
+        width:150px;
+        height:50px;
+        margin-top:0px;
+        border:none;
+        align-items: center;
+        
+    }
+    .order>.btn-order{
+        width:100px;
+        height:40px;
+        margin-top:0px;
+        border:none;
+        align-items: center;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    p.first-pizza{
+        font-size: 20px;
+        color: white;
+    }
+   
+    
+    .order{
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+    }
+    .featured{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .spicy-out{
+        width: 90vw;
+        height: 90vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+    
+    ul{
+        display: none;
+    }
+    section#customersay{
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        flex-direction: column;
+        width: 100vw;
+        
+    }
+    nav li{
+        padding-right: 2px;
+    }
+    .customer{
+        align-items: center;
+        width: 70vw;
+        margin: 0px 20px;
+    }
+    footer,.footer{
+        
+        flex-direction: column;
+    }
+    .footer-links1 a{
+        font-size: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .footer-links2 a{
+        font-size: 10px;
+        margin: 2px;
+    }
+    .footer-links1{
+        margin-bottom: 10px;
+        padding-right: 0px;
+        align-items: center;
+
+    }
+    h2.featured-pizza{
+
+    font-size: 18px;
+    }
+    .first-pizza {
+    font-size: 28px;
+    }
+    .order h3{
+    font-size: 15px;
+    }
+    h5.h5{
+        font-size: 15px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        
+    }
+    p.price{
+        font-size: 12px;
+    }
+    .copyright{
+        font-size: 10px;
+    }
+    h2.what{
+        font-size: 18px;
+    }
+    .view-more{
+        width: 150px;
+    }
+    .huhuhaha p{
+        font-size: 12px;
+    }
+   
+}
+
+@media screen and (min-width:768px) and (max-width:992px){
+    nav .logo{
+        font-size: 20px;
+        
+    }
+    nav ul{
+        display: flex;
+    }
+    div.banner-image{
+        height: 50vh;
+        
+    }
+    section#customersay{
+        display: flex;
+        align-items: center;
+        justify-content:space-evenly;
+        flex-direction: row;
+        width: 100vw;
+        margin: 0px 10px;
+    }
+    .customer{
+        width: 40vw;
+        margin: 0px 10px;
+        height:auto;
+    }
+    .featured{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        width: 100vw;
+        box-sizing: border-box;
+    }
+    p.first-pizza{
+        font-size: 28px;
+        color: white;
+    }
+    .spicy-out{
+        width: 40vw;
+        height: 40vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+       
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    ul{
+        display: flex;
+    }
+    #hamburger{
+        display: none;
+    }
+    .order{
+        padding: 120px;
+        width:39vw;
+
+    }
+   
+    
+}
+@media screen and (min-width:992px) {
+    #hamburger{
+        display: none;
+    }
+    ul{
+        display: flex;
+    }
+    .customer{
+        align-items: center;
+        width: 30vw;
+        margin: 0px 20px;
+    }
+    .order p{
+        font-size: 40px;
+    }
+    .order h3{
+        font-size: 20px;
+    }
+    .huhuhaha{
+        margin: 10px 50px;
+        height:auto;
+        align-items: center;
+    }
+}

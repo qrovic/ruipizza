@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link>
+</head>
+<body>
+    <header>
+        <link rel="stylesheet" href="style.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <nav>
+            <a class="logo" href="logo.png">Rui's Pizza</a></li>
+            <div class="lol">
+                <ul id="ul">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="signup.html">Signup</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                </ul>
+                <button id="hamburger">☰</button>
+            </div>
+            
+        </nav>
+        
+    </header>
+  
+    <main>
+        <section id="banner">
+            <div class="banner-image">
+                <div class="order">
+                    <p class="first-pizza">The First Spicy Pizza In Town</p>
+                    <h3 class="spicy-flavor"><span>Spicy Flavors.</span> Tasty Pizza</h3>
+                    <button class="btn-order"><a href="order.html"></a>Order Now</button>
+                </div>
+                
+            </div>
+        </section>
+    </main>
+    <div class="featured-div">
+        <h2 class="featured-pizza">Featured Pizza</h2><br>
+        <div class="featured">
+            <div class="spicy-out">
+                <div class="spicy-img">
+                </div>
+                <h5 class="h5">Spicy Margharita</h5>
+                <p class="price">₱350.00</p>
+            </div>
+
+            <div class="spicy-out">
+                <div class="peperoni-img">
+                </div>
+                <h5 class="h5">Pepperoni Inferno</h5>
+                <p class="price">₱420.00</p>
+            </div>
+
+            <div class="spicy-out">
+                <div class="veggie-img">
+                </div>
+                <h5 class="h5">Veggie Delight</h5>
+                <p class="price"> ₱300.00</p>
+            </div>
+        </div>
+        <div class="button-view">
+            <button class="view-more">View More Products</button>
+        </div>
+        
+    </div>
+        
+        <br><hr><br>
+
+        <h2 class="what">What Our Customers Say</h2><br>
+
+        <section id="customersay">
+            <div class="huhuhaha">
+                <p class="customer">"These pizzas are the perfect blend of flavor and spices. A true delight!"</h5>
+                <p class="customer">- Maria S.</p>
+            </div>
+            <div class="huhuhaha">
+                <p class="customer">"Spicy Pizzas like these are hard to find. The Pepperoni Inferno is a must-try."</h5>
+                <p class="customer">- John D.</p>
+            </div>
+        </section><br><br>
+
+
+       
+
+   
+    <footer>
+        <div class="footer">
+            <div class="footer-links1">
+                <a href="http:facebook.com"><i class='bx bxl-facebook-square' ></i></a>
+                <a href="http:facebook.com"><i class='bx bxl-instagram' ></i></a>
+                <a href="http:facebook.com"><i class='bx bxl-twitter' ></i></a>
+            </div>
+            <div class="footer-links2">
+                <a href="http:facebook.com">Home</a><a>•</a>
+                <a href="http:facebook.com">About Us</a><a>•</a>
+                <a href="http:facebook.com">Franchising</a><a>•</a>
+                <a href="http:facebook.com">Legal Terms</a><a>•</a>
+                <a href="http:facebook.com">Contact Us</a>
+            </div>
+            
+        </div>
+        <p class="copyright">Copyright 2023 Spicy Pizza. All Rights Reserved</p>
+    </footer>
+    <script type="text/javascript">
+        let menu=document.getElementById('hamburger');
+        let menu1=document.getElementById('ul');
+        menu.addEventListener('click', () => {
+            if(menu1.style.display==="flex"){
+                menu1.style.display="none"
+                
+            }else{
+                menu1.style.display="flex"
+            }
+        });
+        
+        </script>
+</body>
+</html>
