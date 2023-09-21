@@ -68,7 +68,9 @@ nav a{
     
 }
 
-
+a::visited{
+    color:black;
+}
 section#banner{
     height: auto;
     width: 100vw;
