@@ -28,6 +28,7 @@ nav {
     align-items: center;
     background-color: #bb0706;
     height: auto;
+    
 }
 header{
     width: 100vw;
@@ -50,6 +51,7 @@ nav ul{
     list-style:none;
     align-items: center;
     justify-content: center;
+    
 }
 nav a{
     text-decoration: 0;
@@ -105,9 +107,6 @@ div.banner-image{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: black;
-}.btn-order a{
-    color: black;
 }
 h5.h5{
     text-align: center;
@@ -367,21 +366,33 @@ footer a:hover{
     display: flex;
     justify-content: center;
     text-align: center;
+    height:27px;
+   
+    font-size: 20px;
+}
+#hamburger:hover{
+    color: black;
+    cursor: pointer;
 }
 #hamburger i{
     line-height:normal;
 }
 @media screen and (min-width:320px) and (max-width:767px){
     nav .logo{
-        font-size: 15px;
+        font-size: 20px;
         
     }
     nav a{
-        font-size: 12px;
+        font-size: 15px;
         padding: 2px;
+        
     }
-    nav ul{
-        display: none;
+    nav li{
+        margin-top: 10px;
+    }
+    nav ul {
+        display: none; /* Initially hide the navigation menu */
+       
     }
     div.banner-image{
         height: 60vh;
@@ -479,7 +490,6 @@ footer a:hover{
 
     }
     h2.featured-pizza{
-
     font-size: 18px;
     }
     .first-pizza {
@@ -508,6 +518,23 @@ footer a:hover{
     }
     .huhuhaha p{
         font-size: 12px;
+    }
+    .lol{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    nav ul{
+        flex-direction: column;
+        align-items: flex-end;
+        
+    }
+    nav li{
+        transition: opacity 0.5s ease, transform 0.5s ease, display 0.5s ease; 
+    }
+    
+    nav{
+        align-items: start;
     }
    
 }
