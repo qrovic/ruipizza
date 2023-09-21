@@ -109,17 +109,31 @@
         <p class="copyright">Copyright 2023 Spicy Pizza. All Rights Reserved</p>
     </footer>
     <script type="text/javascript">
-        let menu=document.getElementById('hamburger');
-        let menu1=document.getElementById('ul');
-        menu.addEventListener('click', () => {
-            if(menu1.style.display==="flex"){
-                menu1.style.display="none"
+        let menu = document.getElementById('hamburger');
+        let menu1 = document.getElementById('ul');
+        
+        function toggleMenuDisplay() {
+            if (menu1.style.display === "flex") {
+                menu1.style.display = "none";
+            } else {
+                menu1.style.display = "flex";
+            }
+        }
+    
+        menu.addEventListener('click', toggleMenuDisplay);
+    
+        window.addEventListener('resize', () => {
+            
+            if (window.innerWidth >= 768) {
+            
+                menu1.style.display = "flex";
+            } else {
                 
-            }else{
-                menu1.style.display="flex"
+                menu1.style.display = "none";
             }
         });
-        
-        </script>
+       
+    </script>
+    
 </body>
 </html>
