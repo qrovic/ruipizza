@@ -547,6 +547,9 @@ footer a:hover{
     nav ul{
         display: flex;
     }
+    ul{ 
+        display: flex;
+    }
     div.banner-image{
         height: 50vh;
         
