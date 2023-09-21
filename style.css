@@ -44,8 +44,10 @@ nav a{
 
 nav .logo{
     font-size: 30px;
-    
+    font-weight:600;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
+
 nav ul{
     display: flex;
     list-style:none;
